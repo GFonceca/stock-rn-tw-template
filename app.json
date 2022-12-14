@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "stock-rn-tw-template",
-    "slug": "stock-rn-tw-template",
+    "slug": "stock",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,7 +18,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -30,6 +32,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "695a6b75-1e11-4799-9a2b-b20178d6fb12"
+      }
+    },
+    "owner": "gustavofonceca"
   }
 }
